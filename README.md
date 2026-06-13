@@ -61,11 +61,11 @@ done
 ```
 
 ### 3. Expected output
-The pipeline prints out aggregations based on sliding windows every 15 seconds. After sufficient data has been collected, the alert table fires, showing residential zones whose average consumption is higher than the average consumption in the industrial zone in the same sliding window period.
+The pipeline prints out aggregations based on sliding windows every 15 seconds. After sufficient data has been collected, the alert table fires, showing residential zones whose average consumption exceeds the industrial zone's average in the same sliding window period.
 
 
 ## Alert Condition
 A residential zone's average consumption exceeds the industrial zone average within the same sliding window → grid anomaly flagged with zone ID, window timestamps, and both consumption values.
 
-![Grid Anomaly Alerts](screenshot.png)
+![Grid Anomaly Alerts](Screenshot.png)
 
