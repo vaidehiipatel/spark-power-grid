@@ -1,0 +1,8 @@
+stream_input/
+stream_input_backup/
+data/
+__pycache__/
+.DS_Store
+checkpoint/
+derby.log
+metastore_db/
